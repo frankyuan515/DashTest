@@ -7,7 +7,7 @@ import AddTask from './AddTask'
 const ProductManagement = () => {
   return (
     <div>
-        <h4>Product Data to Show:</h4>
+        <h4>Products Data to Show:</h4>
       
         <>
       { showAddTask && <AddTask onAdd ={addTask}/>}
